@@ -1,0 +1,25 @@
+{
+  "type": "minecolonies:empty_colony",
+
+  "config": {
+    "start_pool": "archwoodcollective:archwoodcollective_pool",
+    "size": 10
+  },
+
+  "biomes": "#archwoodcollective:has_structure/archwoodcollective_colony",
+
+  "adapt_noise": true,
+  "spawn_overrides": {
+    "creature": {
+      "bounding_box": "piece",
+      "spawns": [
+        {
+          "type": "minecraft:cat",
+          "weight": 100,
+          "minCount": 1,
+          "maxCount": 2
+        }
+      ]
+    }
+  }
+}

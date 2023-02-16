@@ -1,0 +1,24 @@
+{
+  "name": "archwoodcollective:archwoodcollective/terminators",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 5,
+      "element": {
+        "location": "archwoodcollective:archwoodcollective/archwoodcollective_mudpondterminator",
+        "processors": "archwoodcollective:archwoodcollective/street",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "archwoodcollective:archwoodcollective/archwoodcollective_lightningrodterminator",
+        "processors": "archwoodcollective:archwoodcollective/street",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "archwoodcollective:archwoodcollective/buildings",
+  "fallback": "archwoodcollective:archwoodcollective/terminators",
+  "elements": [
+    {
+      "weight": 10,
+      "element": {
+        "location": "archwoodcollective:archwoodcollective_builder1",
+        "processors": "archwoodcollective:archwoodcollective/placeholder_replacement",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      }
+    }
+ ]
+}

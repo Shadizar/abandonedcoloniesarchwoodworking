@@ -1,0 +1,38 @@
+{
+  "structures": [
+    {
+      "structure": "archwoodcollective:archwoodcollective_colony",
+      "weight": 1
+    },
+    {
+      "structure": "minecolonies:medieval_birch_colony",
+      "weight": 1
+    },
+    {
+      "structure": "minecolonies:medieval_oak_colony",
+      "weight": 1
+    },
+    {
+      "structure": "minecolonies:medieval_spruce_colony",
+      "weight": 1
+    },
+    {
+      "structure": "minecolonies:medieval_dark_oak_colony",
+      "weight": 1
+    },
+    {
+      "structure": "minecolonies:asian_colony",
+      "weight": 1
+    },
+    {
+      "structure": "minecolonies:caledonia_colony",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 1225566777,
+    "spacing": 50,
+    "separation": 20,
+    "type": "minecraft:random_spread"
+  }
+}
